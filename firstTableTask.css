@@ -1,0 +1,30 @@
+     tbody tr:nth-child(even) {
+         background-color: white;
+     }
+     
+     tbody tr:nth-child(odd) {
+         background-color: rgba(241, 235, 235, 0.883);
+     }
+     
+     tbody tr:nth-child(5) {
+         background-color: turquoise;
+     }
+     
+     td {
+         width: 400px;
+         text-align-last: center;
+     }
+     
+     thead td {
+         border: 1px solid rgb(236, 236, 236);
+     }
+     
+     thead {
+         background-color: rgb(28, 70, 150);
+         color: rgb(221, 215, 215);
+         text-align-last: center;
+     }
+     
+     table {
+         border-collapse: collapse;
+     }
